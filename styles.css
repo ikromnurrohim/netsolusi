@@ -50,39 +50,83 @@ body{
 
 /* jumbotron */
 	.jumbotron{
-		background-image: url(img/net1.jpg);
-		background-size: cover;
+		background-image: url(img/bg.jpg);
+		background-size: 100% 100%;
 		height: 540px;
 		text-align: center;
 		position: relative;
-		animation: slide-jumbotron 20s infinite;
 		}
 
-	@keyframes slide-jumbotron{
+	@keyframes slide-jumbotro{
+		5%{
+			background-image: url(net/bg_1.jpg);
+			background-size: 100% 100%;
+			background-repeat: no-repeat;
+		}
+		15%{
+			background-image: url(net/bg_1.jpg);
+			background-size: 100% 100%;
+			background-repeat: no-repeat;
+		}
 		25%{
-			background-image: url(img/net1.jpg);
-			background-size: cover;
+			background-image: url(net/bg_1.jpg);
+			background-size: 100% 100%;
+			background-repeat: no-repeat;
+		}
+		28%{
+			background-image: url(net/bg_1.jpg);
+			background-size: 100% 100%;
+			background-repeat: no-repeat;
+		}
+		30%{
+			background-image: url(net/bg_1.jpg);
+			background-size: 100% 100%;
+			background-repeat: no-repeat;
+		}
+		30%{
+			background-image: url(img/net2.jpg);
+			background-size: 100% 100%;
+			background-repeat: no-repeat;
+		}
+		35%{
+			background-image: url(img/net2.jpg);
+			background-size: 100% 100%;
+			background-repeat: no-repeat; 
+		}
+		45%{
+			background-image: url(img/net2.jpg);
+			background-size: 100% 100%;
+			background-repeat: no-repeat; 
 		}
 		50%{
-			background-image: url(img/net1.jpg);
+			background-image: url(img/net2.jpg);
+			background-size: 100% 100%;
+			background-repeat: no-repeat; 
 		}
-		50%{
+		65%{
 			background-image: url(img/net2.jpg); 
-		}
-		60%{
-			background-image: url(img/net2.jpg); 
+			background-size: 100% 100%;
+			background-repeat: no-repeat;
 		}
 		70%{
-			background-image: url(img/net2.jpg); 
+			background-image: url(img/net1.jpg); 
+			background-size: 100% 100%;
+			background-repeat: no-repeat;
 		}
-		75%{
-			background-image: url(img/net2.jpg); 
+		80%{
+			background-image: url(img/net1.jpg); 
+			background-size: 100% 100%;
+			background-repeat: no-repeat;
 		}
-		75%{
-			background-image: url(img/net5.jpg); 
+		90%{
+			background-image: url(img/net1.jpg); 
+			background-size: 100% 100%;
+			background-repeat: no-repeat;
 		}
 		100%{
 			background-image: url(img/net5.jpg); 
+			background-size: 100% 100%;
+			background-repeat: no-repeat;
 		}
 	}
 	.jumbotron .container{
@@ -214,109 +258,9 @@ body{
 		height: 100%;
 		background-image: url(img/ns2.jpg);
 		background-size: cover;
-		animation: slide 100s infinite;
+		/*animation: slide 100s infinite;*/
 		overflow: hidden;
-	}
-	@keyframes slide{
-		0%{
-			background-image: url(img/ns2.jpg); 
-		}
-		5%{
-			background-image: url(img/ns2.jpg); 
-		}
-		10%{
-			background-image: url(img/ns2.jpg); 
-		}
-		10%{
-			background-image: url(img/ns3.jpg); 
-		}
-		15%{
-			background-image: url(img/ns3.jpg); 
-		}
-		20%{
-			background-image: url(img/ns3.jpg); 
-		}
-		20%{
-			background-image: url(img/ns4.jpg); 
-		}
-		25%{
-			background-image: url(img/ns4.jpg); 
-		}
-		30%{
-			background-image: url(img/ns4.jpg); 
-		}
-		30%{
-			background-image: url(img/ns12.jpg); 
-		}
-		35%{
-			background-image: url(img/ns12.jpg); 
-		}
-		40%{
-			background-image: url(img/ns12.jpg); 
-		}
-		40%{
-			background-image: url(img/ns6.jpg); 
-		}
-		45%{
-			background-image: url(img/ns6.jpg); 
-		}
-		50%{
-			background-image: url(img/ns6.jpg); 
-		}
-		50%{
-			background-image: url(img/ns7.jpg); 
-		}
-		55%{
-			background-image: url(img/ns7.jpg); 
-		}
-		60%{
-			background-image: url(img/ns7.jpg); 
-		}
-		60%{
-			background-image: url(img/ns8.jpg); 
-		}
-		65%{
-			background-image: url(img/ns8.jpg); 
-		}
-		70%{
-			background-image: url(img/ns8.jpg); 
-		}
-		70%{
-			background-image: url(img/ns9.jpg); 
-		}
-		75%{
-			background-image: url(img/ns9.jpg); 
-		}
-		80%{
-			background-image: url(img/ns9.jpg); 
-		}
-		80%{
-			background-image: url(img/ns10.jpg); 
-		}
-		85%{
-			background-image: url(img/ns10.jpg); 
-		}
-		90%{
-			background-image: url(img/ns10.jpg); 
-		}
-		90%{
-			background-image: url(img/ns14.jpg); 
-		}
-		95%{
-			background-image: url(img/ns14.jpg); 
-		}
-		100%{
-			background-image: url(img/ns14.jpg); 
-		}
-		
-	}
-
-	.workingspace .slider p{
-		text-align: right;
-		margin-top: 240px;
-		font-weight: 200;
-		font-family: 'Open Sans', sans-serif;
-		font-size: 0;
+		border: 2px solid #ccc;
 	}
 
 /* deskripsi*/
@@ -359,105 +303,11 @@ body{
 	.testimonial .slider-testimonial{
 		width: 100%;
 		height: 100%;
-		background-image: url(img/ns3.jpg);
+		background-image: url(img/net1.jpg);
 		background-size: cover;
 		overflow: hidden;
-		animation: slider-testimonial 100s infinite;
 	}
 
-	@keyframes slider-testimonial{
-		0%{
-			background-image: url(img/ns2.jpg); 
-		}
-		5%{
-			background-image: url(img/ns2.jpg); 
-		}
-		10%{
-			background-image: url(img/ns2.jpg); 
-		}
-		10%{
-			background-image: url(img/ns3.jpg); 
-		}
-		15%{
-			background-image: url(img/ns3.jpg); 
-		}
-		20%{
-			background-image: url(img/ns3.jpg); 
-		}
-		20%{
-			background-image: url(img/ns4.jpg); 
-		}
-		25%{
-			background-image: url(img/ns4.jpg); 
-		}
-		30%{
-			background-image: url(img/ns4.jpg); 
-		}
-		30%{
-			background-image: url(img/ns12.jpg); 
-		}
-		35%{
-			background-image: url(img/ns12.jpg); 
-		}
-		40%{
-			background-image: url(img/ns12.jpg); 
-		}
-		40%{
-			background-image: url(img/ns6.jpg); 
-		}
-		45%{
-			background-image: url(img/ns6.jpg); 
-		}
-		50%{
-			background-image: url(img/ns6.jpg); 
-		}
-		50%{
-			background-image: url(img/ns7.jpg); 
-		}
-		55%{
-			background-image: url(img/ns7.jpg); 
-		}
-		60%{
-			background-image: url(img/ns7.jpg); 
-		}
-		60%{
-			background-image: url(img/ns8.jpg); 
-		}
-		65%{
-			background-image: url(img/ns8.jpg); 
-		}
-		70%{
-			background-image: url(img/ns8.jpg); 
-		}
-		70%{
-			background-image: url(img/ns9.jpg); 
-		}
-		75%{
-			background-image: url(img/ns9.jpg); 
-		}
-		80%{
-			background-image: url(img/ns9.jpg); 
-		}
-		80%{
-			background-image: url(img/ns10.jpg); 
-		}
-		85%{
-			background-image: url(img/ns10.jpg); 
-		}
-		90%{
-			background-image: url(img/ns10.jpg); 
-		}
-		90%{
-			background-image: url(img/ns14.jpg); 
-		}
-		95%{
-			background-image: url(img/ns14.jpg); 
-		}
-		100%{
-			background-image: url(img/ns14.jpg); 
-		}
-		
-	}
 	
 	.testimonial .slider-testimonial p{
 		text-align: right;
@@ -475,223 +325,12 @@ body{
 	.testimonial-2 .slider-testimonial-2{
 		width: 100%;
 		height: 100%;
-		background-image: url(img/ns3.jpg);
+		background-image: url(img/net5.jpg);
 		background-size: cover;
 		overflow: hidden;
-		animation: slider-testimonial 100s infinite;
-	}
-
-	@keyframes slider-testimonial{
-		0%{
-			background-image: url(img/ns2.jpg); 
-		}
-		5%{
-			background-image: url(img/ns2.jpg); 
-		}
-		10%{
-			background-image: url(img/ns2.jpg); 
-		}
-		10%{
-			background-image: url(img/ns3.jpg); 
-		}
-		15%{
-			background-image: url(img/ns3.jpg); 
-		}
-		20%{
-			background-image: url(img/ns3.jpg); 
-		}
-		20%{
-			background-image: url(img/ns4.jpg); 
-		}
-		25%{
-			background-image: url(img/ns4.jpg); 
-		}
-		30%{
-			background-image: url(img/ns4.jpg); 
-		}
-		30%{
-			background-image: url(img/ns12.jpg); 
-		}
-		35%{
-			background-image: url(img/ns12.jpg); 
-		}
-		40%{
-			background-image: url(img/ns12.jpg); 
-		}
-		40%{
-			background-image: url(img/ns6.jpg); 
-		}
-		45%{
-			background-image: url(img/ns6.jpg); 
-		}
-		50%{
-			background-image: url(img/ns6.jpg); 
-		}
-		50%{
-			background-image: url(img/ns7.jpg); 
-		}
-		55%{
-			background-image: url(img/ns7.jpg); 
-		}
-		60%{
-			background-image: url(img/ns7.jpg); 
-		}
-		60%{
-			background-image: url(img/ns8.jpg); 
-		}
-		65%{
-			background-image: url(img/ns8.jpg); 
-		}
-		70%{
-			background-image: url(img/ns8.jpg); 
-		}
-		70%{
-			background-image: url(img/ns9.jpg); 
-		}
-		75%{
-			background-image: url(img/ns9.jpg); 
-		}
-		80%{
-			background-image: url(img/ns9.jpg); 
-		}
-		80%{
-			background-image: url(img/ns10.jpg); 
-		}
-		85%{
-			background-image: url(img/ns10.jpg); 
-		}
-		90%{
-			background-image: url(img/ns10.jpg); 
-		}
-		90%{
-			background-image: url(img/ns14.jpg); 
-		}
-		95%{
-			background-image: url(img/ns14.jpg); 
-		}
-		100%{
-			background-image: url(img/ns14.jpg); 
-		}
-		
 	}
 	
 	.testimonial-2 .slider-testimonial-2 p{
-		text-align: right;
-		margin-top: 240px;
-		font-weight: 200;
-		font-family: 'Open Sans', sans-serif;
-		font-size: 0;
-	}
-
-	.testimonial-3{
-		text-align: left;
-		margin-top: 50px;
-	}
-
-	.testimonial-3 .slider-testimonial-3{
-		width: 100%;
-		height: 100%;
-		background-image: url(img/ns3.jpg);
-		background-size: cover;
-		overflow: hidden;
-		animation: slider-testimonial 100s infinite;
-	}
-
-	@keyframes slider-testimonial{
-		0%{
-			background-image: url(img/ns2.jpg); 
-		}
-		5%{
-			background-image: url(img/ns2.jpg); 
-		}
-		10%{
-			background-image: url(img/ns2.jpg); 
-		}
-		10%{
-			background-image: url(img/ns3.jpg); 
-		}
-		15%{
-			background-image: url(img/ns3.jpg); 
-		}
-		20%{
-			background-image: url(img/ns3.jpg); 
-		}
-		20%{
-			background-image: url(img/ns4.jpg); 
-		}
-		25%{
-			background-image: url(img/ns4.jpg); 
-		}
-		30%{
-			background-image: url(img/ns4.jpg); 
-		}
-		30%{
-			background-image: url(img/ns12.jpg); 
-		}
-		35%{
-			background-image: url(img/ns12.jpg); 
-		}
-		40%{
-			background-image: url(img/ns12.jpg); 
-		}
-		40%{
-			background-image: url(img/ns6.jpg); 
-		}
-		45%{
-			background-image: url(img/ns6.jpg); 
-		}
-		50%{
-			background-image: url(img/ns6.jpg); 
-		}
-		50%{
-			background-image: url(img/ns7.jpg); 
-		}
-		55%{
-			background-image: url(img/ns7.jpg); 
-		}
-		60%{
-			background-image: url(img/ns7.jpg); 
-		}
-		60%{
-			background-image: url(img/ns8.jpg); 
-		}
-		65%{
-			background-image: url(img/ns8.jpg); 
-		}
-		70%{
-			background-image: url(img/ns8.jpg); 
-		}
-		70%{
-			background-image: url(img/ns9.jpg); 
-		}
-		75%{
-			background-image: url(img/ns9.jpg); 
-		}
-		80%{
-			background-image: url(img/ns9.jpg); 
-		}
-		80%{
-			background-image: url(img/ns10.jpg); 
-		}
-		85%{
-			background-image: url(img/ns10.jpg); 
-		}
-		90%{
-			background-image: url(img/ns10.jpg); 
-		}
-		90%{
-			background-image: url(img/ns14.jpg); 
-		}
-		95%{
-			background-image: url(img/ns14.jpg); 
-		}
-		100%{
-			background-image: url(img/ns14.jpg); 
-		}
-		
-	}
-	
-	.testimonial-3 .slider-testimonial-3 p{
 		text-align: right;
 		margin-top: 240px;
 		font-weight: 200;
@@ -934,9 +573,9 @@ body{
 
 
 
-
 /* DESKTOP VERSION */
 @media (min-width: 992px){
+
 
 
 	
@@ -1003,6 +642,4 @@ body{
 
 /*contact html*/
 	
-
-
-}
+	}
